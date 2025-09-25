@@ -116,4 +116,3 @@ def generate_outfit_suggestion(weather, style):
     if style == "casual": return base + "Jeans with comfortable top"
     elif style == "formal": return base + "Tailored pants with button-down"
     else: return base + "Dress for the occasion"
-
