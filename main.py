@@ -117,6 +117,3 @@ def generate_outfit_suggestion(weather, style):
     elif style == "formal": return base + "Tailored pants with button-down"
     else: return base + "Dress for the occasion"
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
